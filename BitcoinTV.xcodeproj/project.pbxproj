@@ -11,15 +11,25 @@
 		F4DD0A3B1F1EE5330083A54D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD0A3A1F1EE5330083A54D /* ViewController.swift */; };
 		F4DD0A3E1F1EE5330083A54D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DD0A3C1F1EE5330083A54D /* Main.storyboard */; };
 		F4DD0A401F1EE5330083A54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DD0A3F1F1EE5330083A54D /* Assets.xcassets */; };
+		F4DD0A481F1EE9150083A54D /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD0A471F1EE9150083A54D /* Ticker.swift */; };
+		F4DD0A4A1F1EE9240083A54D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD0A491F1EE9240083A54D /* Utils.swift */; };
+		F4DD0A4C1F1EE9C40083A54D /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD0A4B1F1EE9C40083A54D /* TableController.swift */; };
+		F4DD0A4F1F1EEF4E0083A54D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DD0A4D1F1EEF4E0083A54D /* TableViewCell.swift */; };
+		F4DD0A501F1EEF4E0083A54D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DD0A4E1F1EEF4E0083A54D /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4DD0A351F1EE5330083A54D /* BitcoinTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4DD0A381F1EE5330083A54D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DD0A381F1EE5330083A54D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		F4DD0A3A1F1EE5330083A54D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4DD0A3D1F1EE5330083A54D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4DD0A3F1F1EE5330083A54D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DD0A411F1EE5330083A54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DD0A471F1EE9150083A54D /* Ticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		F4DD0A491F1EE9240083A54D /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F4DD0A4B1F1EE9C40083A54D /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		F4DD0A4D1F1EEF4E0083A54D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F4DD0A4E1F1EEF4E0083A54D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,16 @@
 		F4DD0A371F1EE5330083A54D /* BitcoinTV */ = {
 			isa = PBXGroup;
 			children = (
+				F4DD0A411F1EE5330083A54D /* Info.plist */,
 				F4DD0A381F1EE5330083A54D /* AppDelegate.swift */,
 				F4DD0A3A1F1EE5330083A54D /* ViewController.swift */,
+				F4DD0A4B1F1EE9C40083A54D /* TableController.swift */,
+				F4DD0A4D1F1EEF4E0083A54D /* TableViewCell.swift */,
+				F4DD0A4E1F1EEF4E0083A54D /* TableViewCell.xib */,
+				F4DD0A471F1EE9150083A54D /* Ticker.swift */,
+				F4DD0A491F1EE9240083A54D /* Utils.swift */,
 				F4DD0A3C1F1EE5330083A54D /* Main.storyboard */,
 				F4DD0A3F1F1EE5330083A54D /* Assets.xcassets */,
-				F4DD0A411F1EE5330083A54D /* Info.plist */,
 			);
 			path = BitcoinTV;
 			sourceTree = "<group>";
@@ -93,7 +108,6 @@
 				TargetAttributes = {
 					F4DD0A341F1EE5330083A54D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = W7PMV9XFGM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -122,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DD0A401F1EE5330083A54D /* Assets.xcassets in Resources */,
+				F4DD0A501F1EEF4E0083A54D /* TableViewCell.xib in Resources */,
 				F4DD0A3E1F1EE5330083A54D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DD0A3B1F1EE5330083A54D /* ViewController.swift in Sources */,
+				F4DD0A481F1EE9150083A54D /* Ticker.swift in Sources */,
 				F4DD0A391F1EE5330083A54D /* AppDelegate.swift in Sources */,
+				F4DD0A4F1F1EEF4E0083A54D /* TableViewCell.swift in Sources */,
+				F4DD0A4C1F1EE9C40083A54D /* TableController.swift in Sources */,
+				F4DD0A4A1F1EE9240083A54D /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = W7PMV9XFGM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitcoinTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Armonia.BitcoinTV;
@@ -264,7 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = W7PMV9XFGM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BitcoinTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Armonia.BitcoinTV;
