@@ -30,6 +30,7 @@
 		F4DD0A4B1F1EE9C40083A54D /* TableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		F4DD0A4D1F1EEF4E0083A54D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F4DD0A4E1F1EEF4E0083A54D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F4DD0A511F1F04E60083A54D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 		F4DD0A2C1F1EE5330083A54D = {
 			isa = PBXGroup;
 			children = (
+				F4DD0A511F1F04E60083A54D /* Readme.md */,
 				F4DD0A371F1EE5330083A54D /* BitcoinTV */,
 				F4DD0A361F1EE5330083A54D /* Products */,
 			);
